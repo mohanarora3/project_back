@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -9,6 +9,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Users, Eye, EyeOff, Mail, Lock, UserPlus } from "lucide-react";
 
 const CustomerLogin = () => {
+  const navigate = useNavigate();
   const [showPassword, setShowPassword] = useState(false);
   const [showSignupPassword, setShowSignupPassword] = useState(false);
   const [loginData, setLoginData] = useState({
@@ -30,12 +31,18 @@ const CustomerLogin = () => {
     e.preventDefault();
     // Handle customer login logic here
     console.log("Customer login:", loginData);
+
+    // Redirect to dashboard after successful login
+    navigate("/");
   };
 
   const handleSignup = (e: React.FormEvent) => {
     e.preventDefault();
     // Handle customer signup logic here
     console.log("Customer signup:", signupData);
+
+    // Redirect to dashboard after successful signup
+    navigate("/");
   };
 
   return (

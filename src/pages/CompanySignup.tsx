@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -8,6 +8,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Building2, Eye, EyeOff, Mail, Lock, User, Phone } from "lucide-react";
 
 const CompanySignup = () => {
+  const navigate = useNavigate();
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
   const [formData, setFormData] = useState({
@@ -24,6 +25,9 @@ const CompanySignup = () => {
     e.preventDefault();
     // Handle company signup logic here
     console.log("Company signup:", formData);
+
+    // Redirect to dashboard after successful signup
+    navigate("/");
   };
 
   return (
