@@ -49,12 +49,14 @@ const CustomerLogin = () => {
             </div>
             <div className="text-left">
               <h1 className="text-2xl font-bold text-foreground">BizFolio</h1>
-              <p className="text-sm text-muted-foreground">Customer Portal</p>
+              <p className="text-sm text-muted-foreground">
+                Solar Customer Portal
+              </p>
             </div>
           </div>
           <h2 className="text-2xl font-bold tracking-tight">Welcome</h2>
           <p className="text-muted-foreground">
-            Access your service history and manage your account
+            Access your solar installation history and energy performance
           </p>
         </div>
 

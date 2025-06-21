@@ -11,16 +11,16 @@ const Services = () => {
         <div className="flex items-center justify-between">
           <div>
             <h1 className="text-3xl font-bold tracking-tight">
-              Service Management
+              Solar Service Management
             </h1>
             <p className="text-muted-foreground">
-              Schedule, track, and manage all your customer services and
-              maintenance.
+              Schedule, track, and manage solar panel installations, cleaning,
+              and maintenance services.
             </p>
           </div>
           <Button>
             <Plus className="h-4 w-4 mr-2" />
-            Schedule Service
+            Schedule Solar Service
           </Button>
         </div>
 
@@ -31,11 +31,13 @@ const Services = () => {
               <Calendar className="h-12 w-12 text-muted-foreground" />
             </div>
             <div className="space-y-2">
-              <h3 className="text-2xl font-semibold">Service Scheduling</h3>
+              <h3 className="text-2xl font-semibold">
+                Solar Service Scheduling
+              </h3>
               <p className="text-muted-foreground max-w-md">
-                Coming soon! This comprehensive service management system will
-                help you schedule appointments, track service history, and
-                manage annual maintenance contracts.
+                Coming soon! This comprehensive solar service management system
+                will help you schedule installations, cleaning, maintenance, and
+                track solar panel performance history.
               </p>
             </div>
             <div className="flex items-center gap-2 text-sm text-muted-foreground">

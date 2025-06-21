@@ -32,12 +32,14 @@ const CompanyLogin = () => {
             </div>
             <div className="text-left">
               <h1 className="text-2xl font-bold text-foreground">BizFolio</h1>
-              <p className="text-sm text-muted-foreground">Business Manager</p>
+              <p className="text-sm text-muted-foreground">
+                Solar Panel Services
+              </p>
             </div>
           </div>
           <h2 className="text-2xl font-bold tracking-tight">Company Portal</h2>
           <p className="text-muted-foreground">
-            Sign in to manage your business operations
+            Sign in to manage your solar panel services
           </p>
         </div>
 

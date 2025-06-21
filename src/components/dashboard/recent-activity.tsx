@@ -57,8 +57,8 @@ export const RecentActivity = () => {
     {
       id: "1",
       type: "customer",
-      title: "New customer registered",
-      description: "Priya Sharma signed up for premium service",
+      title: "New solar installation enquiry",
+      description: "Priya Sharma requested quote for 10kW solar system",
       time: "2 minutes ago",
       user: {
         name: "Priya Sharma",
@@ -69,8 +69,8 @@ export const RecentActivity = () => {
     {
       id: "2",
       type: "review",
-      title: "5-star review received",
-      description: "Excellent service quality and professional team",
+      title: "5-star solar review received",
+      description: "Excellent solar installation and maintenance service",
       time: "1 hour ago",
       user: {
         name: "Arjun Patel",
@@ -81,16 +81,16 @@ export const RecentActivity = () => {
     {
       id: "3",
       type: "service",
-      title: "Annual service scheduled",
-      description: "HVAC maintenance for TechnoSoft Solutions building",
+      title: "Solar maintenance scheduled",
+      description: "Annual solar panel cleaning for TechnoSoft Solutions",
       time: "3 hours ago",
       status: "pending",
     },
     {
       id: "4",
       type: "customer",
-      title: "Customer data updated",
-      description: "Contact information updated for InfoTech Enterprises",
+      title: "Solar system data updated",
+      description: "Performance metrics updated for InfoTech Enterprises",
       time: "5 hours ago",
       user: {
         name: "Kavitha Reddy",
@@ -101,8 +101,8 @@ export const RecentActivity = () => {
     {
       id: "5",
       type: "service",
-      title: "Service completed",
-      description: "Quarterly maintenance at Business Park Office",
+      title: "Solar installation completed",
+      description: "15kW rooftop solar system installed at Business Park",
       time: "1 day ago",
       status: "completed",
     },

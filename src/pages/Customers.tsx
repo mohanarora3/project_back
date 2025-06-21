@@ -212,7 +212,8 @@ const Customers = () => {
           <div>
             <h1 className="text-3xl font-bold tracking-tight">Customers</h1>
             <p className="text-muted-foreground">
-              Manage your customer database and track service history.
+              Manage your solar customers and track installation & maintenance
+              history.
             </p>
           </div>
           <Button>

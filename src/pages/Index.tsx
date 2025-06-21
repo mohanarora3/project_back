@@ -25,7 +25,7 @@ const QuickActions = () => (
     <CardContent className="grid grid-cols-2 gap-3">
       <Button className="h-auto p-4 flex-col gap-2">
         <Plus className="h-5 w-5" />
-        <span className="text-sm">Add Customer</span>
+        <span className="text-sm">New Installation</span>
       </Button>
       <Button variant="outline" className="h-auto p-4 flex-col gap-2">
         <Calendar className="h-5 w-5" />
@@ -33,11 +33,11 @@ const QuickActions = () => (
       </Button>
       <Button variant="outline" className="h-auto p-4 flex-col gap-2">
         <Star className="h-5 w-5" />
-        <span className="text-sm">Manage Reviews</span>
+        <span className="text-sm">Solar Reviews</span>
       </Button>
       <Button variant="outline" className="h-auto p-4 flex-col gap-2">
         <TrendingUp className="h-5 w-5" />
-        <span className="text-sm">View Analytics</span>
+        <span className="text-sm">Energy Analytics</span>
       </Button>
     </CardContent>
   </Card>
@@ -46,14 +46,16 @@ const QuickActions = () => (
 const ServiceOverview = () => (
   <Card>
     <CardHeader>
-      <CardTitle className="text-lg font-semibold">Service Overview</CardTitle>
+      <CardTitle className="text-lg font-semibold">
+        Solar Service Overview
+      </CardTitle>
     </CardHeader>
     <CardContent className="space-y-4">
       <div className="space-y-2">
         <div className="flex items-center justify-between text-sm">
           <span className="flex items-center gap-2">
             <CheckCircle2 className="h-4 w-4 text-success" />
-            Completed Services
+            Completed Installations
           </span>
           <span className="font-medium">76/89</span>
         </div>
@@ -64,7 +66,7 @@ const ServiceOverview = () => (
         <div className="flex items-center justify-between text-sm">
           <span className="flex items-center gap-2">
             <Clock className="h-4 w-4 text-warning" />
-            Pending Services
+            Pending Maintenance
           </span>
           <span className="font-medium">8/89</span>
         </div>
@@ -75,7 +77,7 @@ const ServiceOverview = () => (
         <div className="flex items-center justify-between text-sm">
           <span className="flex items-center gap-2">
             <AlertTriangle className="h-4 w-4 text-destructive" />
-            Overdue Services
+            Overdue Cleaning
           </span>
           <span className="font-medium">5/89</span>
         </div>
@@ -94,7 +96,8 @@ const Index = () => {
           <div>
             <h1 className="text-3xl font-bold tracking-tight">Dashboard</h1>
             <p className="text-muted-foreground">
-              Welcome back! Here's what's happening with your business today.
+              Welcome back! Here's what's happening with your solar panel
+              services today.
             </p>
           </div>
           <div className="flex items-center gap-3">

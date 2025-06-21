@@ -57,10 +57,10 @@ export const Navigation = () => {
 
   const navItems = [
     { to: "/", icon: Home, label: "Dashboard" },
-    { to: "/customers", icon: Users, label: "Customers", badge: "234" },
-    { to: "/reviews", icon: Star, label: "Reviews", badge: "12" },
-    { to: "/services", icon: Calendar, label: "Services", badge: "8" },
-    { to: "/analytics", icon: BarChart3, label: "Analytics" },
+    { to: "/customers", icon: Users, label: "Solar Customers", badge: "234" },
+    { to: "/reviews", icon: Star, label: "Solar Reviews", badge: "12" },
+    { to: "/services", icon: Calendar, label: "Solar Services", badge: "8" },
+    { to: "/analytics", icon: BarChart3, label: "Energy Analytics" },
     { to: "/settings", icon: Settings, label: "Settings" },
   ];
 
@@ -77,7 +77,7 @@ export const Navigation = () => {
               BizFolio
             </h1>
             <p className="text-xs text-sidebar-foreground/60">
-              Business Manager
+              Solar Panel Services
             </p>
           </div>
         </div>

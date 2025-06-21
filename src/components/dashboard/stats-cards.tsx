@@ -61,7 +61,7 @@ const StatCard = ({
 export const StatsCards = () => {
   const stats = [
     {
-      title: "Total Customers",
+      title: "Solar Installations",
       value: "2,345",
       change: "+12.5%",
       trend: "up" as const,
@@ -69,7 +69,7 @@ export const StatsCards = () => {
       iconColor: "bg-blue-500",
     },
     {
-      title: "Active Services",
+      title: "Active Maintenance",
       value: "89",
       change: "+8.2%",
       trend: "up" as const,
@@ -77,7 +77,7 @@ export const StatsCards = () => {
       iconColor: "bg-green-500",
     },
     {
-      title: "Reviews This Month",
+      title: "Customer Reviews",
       value: "156",
       change: "+23.1%",
       trend: "up" as const,
@@ -85,7 +85,7 @@ export const StatsCards = () => {
       iconColor: "bg-yellow-500",
     },
     {
-      title: "Revenue Growth",
+      title: "Solar Revenue",
       value: "₹3,84,567",
       change: "+15.3%",
       trend: "up" as const,
