@@ -2,6 +2,7 @@ import { DashboardLayout } from "@/components/layout/dashboard-layout";
 import { StatsCards } from "@/components/dashboard/stats-cards";
 import { RecentActivity } from "@/components/dashboard/recent-activity";
 import { UpcomingServices } from "@/components/dashboard/upcoming-services";
+import { CustomerPortalAccess } from "@/components/dashboard/customer-portal-access";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -126,6 +127,7 @@ const Index = () => {
           {/* Right Column - 1/3 width */}
           <div className="space-y-6">
             <QuickActions />
+            <CustomerPortalAccess />
             <ServiceOverview />
           </div>
         </div>

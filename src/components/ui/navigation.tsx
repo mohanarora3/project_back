@@ -15,6 +15,7 @@ import {
   LogOut,
 } from "lucide-react";
 import { Input } from "@/components/ui/input";
+import { CustomerPortalSection } from "@/components/ui/customer-portal-section";
 
 interface NavItemProps {
   to: string;
@@ -101,6 +102,9 @@ export const Navigation = () => {
           />
         ))}
       </nav>
+
+      {/* Customer Portal Section */}
+      <CustomerPortalSection />
 
       {/* Footer */}
       <div className="p-4 border-t border-sidebar-border space-y-3">
