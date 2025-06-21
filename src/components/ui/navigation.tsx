@@ -119,11 +119,11 @@ export const Navigation = () => {
 
         <div className="flex items-center gap-3 p-3 rounded-lg bg-sidebar-accent">
           <div className="h-8 w-8 rounded-full bg-primary/10 flex items-center justify-center">
-            <span className="text-sm font-medium text-primary">JS</span>
+            <span className="text-sm font-medium text-primary">RS</span>
           </div>
           <div className="flex-1 min-w-0">
             <p className="text-sm font-medium text-sidebar-foreground truncate">
-              John Smith
+              Raj Singh
             </p>
             <p className="text-xs text-sidebar-foreground/60">Administrator</p>
           </div>

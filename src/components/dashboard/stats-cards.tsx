@@ -86,7 +86,7 @@ export const StatsCards = () => {
     },
     {
       title: "Revenue Growth",
-      value: "$45,678",
+      value: "₹3,84,567",
       change: "+15.3%",
       trend: "up" as const,
       icon: TrendingUp,

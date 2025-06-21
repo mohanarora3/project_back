@@ -108,7 +108,7 @@ export const LoginModal = ({ open, onOpenChange }: LoginModalProps) => {
                   <Input
                     id="company-email"
                     type="email"
-                    placeholder="admin@company.com"
+                    placeholder="admin@company.co.in"
                     value={companyLogin.email}
                     onChange={(e) =>
                       setCompanyLogin({
@@ -196,7 +196,7 @@ export const LoginModal = ({ open, onOpenChange }: LoginModalProps) => {
                       <Input
                         id="customer-email"
                         type="email"
-                        placeholder="customer@email.com"
+                        placeholder="customer@email.in"
                         value={customerLogin.email}
                         onChange={(e) =>
                           setCustomerLogin({
@@ -274,7 +274,7 @@ export const LoginModal = ({ open, onOpenChange }: LoginModalProps) => {
                       <Label htmlFor="first-name">First name</Label>
                       <Input
                         id="first-name"
-                        placeholder="John"
+                        placeholder="Raj"
                         value={customerSignup.firstName}
                         onChange={(e) =>
                           setCustomerSignup({
@@ -289,7 +289,7 @@ export const LoginModal = ({ open, onOpenChange }: LoginModalProps) => {
                       <Label htmlFor="last-name">Last name</Label>
                       <Input
                         id="last-name"
-                        placeholder="Doe"
+                        placeholder="Singh"
                         value={customerSignup.lastName}
                         onChange={(e) =>
                           setCustomerSignup({
@@ -325,7 +325,7 @@ export const LoginModal = ({ open, onOpenChange }: LoginModalProps) => {
                       <Input
                         id="signup-email"
                         type="email"
-                        placeholder="john@company.com"
+                        placeholder="raj@company.co.in"
                         value={customerSignup.email}
                         onChange={(e) =>
                           setCustomerSignup({
