@@ -128,16 +128,30 @@ const CompanyLogin = () => {
               </Button>
             </form>
 
-            <div className="mt-6 text-center text-sm">
-              <span className="text-muted-foreground">
-                Are you a customer?{" "}
-              </span>
-              <Link
-                to="/customer-login"
-                className="text-primary hover:underline font-medium"
-              >
-                Customer Portal
-              </Link>
+            <div className="mt-6 space-y-4 text-center text-sm">
+              <div>
+                <span className="text-muted-foreground">
+                  Don't have an account?{" "}
+                </span>
+                <Link
+                  to="/company-signup"
+                  className="text-primary hover:underline font-medium"
+                >
+                  Create Company Account
+                </Link>
+              </div>
+
+              <div>
+                <span className="text-muted-foreground">
+                  Are you a customer?{" "}
+                </span>
+                <Link
+                  to="/customer-login"
+                  className="text-primary hover:underline font-medium"
+                >
+                  Customer Portal
+                </Link>
+              </div>
             </div>
           </CardContent>
         </Card>

@@ -329,6 +329,13 @@ const CustomerLogin = () => {
               >
                 Company Portal
               </Link>
+              <span className="text-muted-foreground"> or </span>
+              <Link
+                to="/company-signup"
+                className="text-primary hover:underline font-medium"
+              >
+                Create Company Account
+              </Link>
             </div>
           </CardContent>
         </Card>

@@ -10,6 +10,7 @@ import Services from "./pages/Services";
 import Analytics from "./pages/Analytics";
 import Settings from "./pages/Settings";
 import CompanyLogin from "./pages/CompanyLogin";
+import CompanySignup from "./pages/CompanySignup";
 import CustomerLogin from "./pages/CustomerLogin";
 import NotFound from "./pages/NotFound";
 
@@ -29,6 +30,7 @@ const App = () => (
           <Route path="/analytics" element={<Analytics />} />
           <Route path="/settings" element={<Settings />} />
           <Route path="/company-login" element={<CompanyLogin />} />
+          <Route path="/company-signup" element={<CompanySignup />} />
           <Route path="/customer-login" element={<CustomerLogin />} />
           <Route path="/login" element={<CompanyLogin />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

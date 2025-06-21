@@ -12,11 +12,9 @@ import {
   Users,
   Bell,
   Search,
-  LogIn,
+  LogOut,
 } from "lucide-react";
 import { Input } from "@/components/ui/input";
-import { LoginModal } from "@/components/auth/login-modal";
-import { useState } from "react";
 
 interface NavItemProps {
   to: string;
@@ -53,7 +51,6 @@ const NavItem = ({ to, icon: Icon, label, badge, isActive }: NavItemProps) => (
 
 export const Navigation = () => {
   const location = useLocation();
-  const [loginModalOpen, setLoginModalOpen] = useState(false);
 
   const navItems = [
     { to: "/", icon: Home, label: "Dashboard" },
@@ -107,16 +104,6 @@ export const Navigation = () => {
 
       {/* Footer */}
       <div className="p-4 border-t border-sidebar-border space-y-3">
-        {/* Login Button */}
-        <Button
-          onClick={() => setLoginModalOpen(true)}
-          variant="outline"
-          className="w-full justify-start gap-2"
-        >
-          <LogIn className="h-4 w-4" />
-          Login / Switch User
-        </Button>
-
         <div className="flex items-center gap-3 p-3 rounded-lg bg-sidebar-accent">
           <div className="h-8 w-8 rounded-full bg-primary/10 flex items-center justify-center">
             <span className="text-sm font-medium text-primary">RS</span>
@@ -131,10 +118,15 @@ export const Navigation = () => {
             <Bell className="h-4 w-4" />
           </Button>
         </div>
-      </div>
 
-      {/* Login Modal */}
-      <LoginModal open={loginModalOpen} onOpenChange={setLoginModalOpen} />
+        {/* Logout Button */}
+        <Link to="/company-login">
+          <Button variant="outline" className="w-full justify-start gap-2">
+            <LogOut className="h-4 w-4" />
+            Logout
+          </Button>
+        </Link>
+      </div>
     </div>
   );
 };
